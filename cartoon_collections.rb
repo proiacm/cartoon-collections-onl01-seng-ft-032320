@@ -18,9 +18,6 @@ end
 
 def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
-    if strings.detect {|word| cheese_types.include?(word)}
-  
-    else strings.include?
+  strings.detect {|word| cheese_types.include?(word)}
     end  
- 
 end
